@@ -8,7 +8,9 @@ YeEngine.CreateBasicTags()
 
 let Start = setInterval(()=>{
     // Add your methods for Sanddox here
-
+    YeEngine.AlterThemeSystem(YeEngine.Theme.SkyTheme)
+    YeEngine.AlterTheme(YeEngine.Theme.GreyTheme)
+    
     //End Your methods Here
     clearInterval(Start) //Dont erase this line
-},400)
+},400) 
